@@ -1,0 +1,13 @@
+1. preprocess_text - Passed
+2. is_correct_format_code1 - Passed
+3. is_correct_format_code2 - Passed
+4. extract_trademark_details_code1 - Passed
+5. extract_registration_number - Passed
+6. extract_trademark_details_code2
+8. split_text - Passed on larger token, FAILED test_split_text.py::test_split_text_with_small_max_tokens - AssertionError: assert 4 <= 3
+9. parse_international_class_numbers - Passed
+10. extract_international_class_numbers_and_goods_services - Passed for goods_services but Failed for numbers
+11. extract_design_phrase - Passed - Few change for better run is suggested, i will provide the code
+12. parse_trademark_details - Passed
+14. compare_trademarks2 - passed
+17. extract_proposed_trademark_details2 - Passed
